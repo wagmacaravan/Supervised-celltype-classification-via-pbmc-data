@@ -1,6 +1,6 @@
 # Supervised cell-type classification from single-cell RNA-seq
 
-Predicts immune cell type from expression via annotation tools (CellTypist, SingleR).
+Predicts immune cell type from expression
 
 ## Data
 700 human PBMCs, 765 variable genes, 10 annotated
@@ -15,7 +15,7 @@ imbalance: 240 cells in the largest class, 8 in the smallest.
   majority-class dummy scores 0.34 accuracy but 0.05 macro F1)
 
 ## Results
-| model | CV macro F1 |:
+| model | CV macro F1 |
 | Logistic regression | 0.681 ± 0.025 |
 | Gradient boosting | 0.647 ± 0.046 |
 | Random forest | 0.641 ± 0.032 |
