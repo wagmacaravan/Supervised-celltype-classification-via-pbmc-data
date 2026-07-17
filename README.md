@@ -27,9 +27,8 @@ Held-out test: **0.646 macro F1 / 0.829 accuracy** (n=175).
   B cells), the model learned biology.
 - Errors are confined to T-cell subsets. Merging them into one
   lineage label raises macro F1 to **0.900** with no model change:
-  the ceiling is the modality, not the algorithm. These labels
-  derive from surface proteins (CD25/CD45RA/CD45RO) that RNA
-  cannot fully resolve.
+  These labels derive from surface proteins (CD25/CD45RA/CD45RO) that RNA
+  cannot fully resolve. Part of the increase is also a small-n relief (went from 10 to 6 classes)
 - Rare classes (n=2, n=5 in test) are unmeasurable; one cell moves
   recall by 50 points yet control 20% of macro F1. Reported
   alongside per-class support for transparency.
